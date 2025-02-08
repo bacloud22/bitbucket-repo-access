@@ -15,8 +15,8 @@
   "author": "@surjithctly",
   "license": "ISC",
   "dependencies": {
-    "@octokit/core": "^3.1.2",
     "autoprefixer": "^9.8.6",
+    "bitbucket": "^2.12.0",
     "envato": "^2.4.1",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.6.2"

@@ -16,7 +16,7 @@ Add a `.env` file in your root folder and then add your github token.
 
 ```
 ENVATO_TOKEN=YOUR_ENVATO_PEROSNAL_TOKEN
-GITHUB_TOKEN=YOUR_GITHUB_PEROSNAL_TOKEN
+BITBUCKET_TOKEN=YOUR_GITHUB_PEROSNAL_TOKEN
 ```
 
 ## Personal Token Scope
