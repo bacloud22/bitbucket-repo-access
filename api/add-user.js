@@ -3,9 +3,9 @@ const {
 } = require('bitbucket')
 const Envato = require("envato");
 const repomap = require("./repomap.js");
-const bitbucket_token = process.env.BITBUCKET_TOKEN;
-const envato_token = process.env.ENVATO_TOKEN;
-const envato = new Envato.Client(envato_token);
+const bitbucket_token = process.env.BITBUCKET_KEY;
+const envato_token = process.env.ENVATO_KEY;
+// const envato = new Envato.Client(envato_token);
 
 const clientOptions = {
   auth: {
@@ -19,11 +19,11 @@ async function addUSerToRepo(req, res) {
   const data = JSON.parse(req.body);
 
   try {
-      const sale = await envato.private.getSale(data.purchase_code);
+    //   const sale = await envato.private.getSale(data.purchase_code);
 
-      const itemID = sale.item.id;
-      const reponame = repomap[itemID];
-      if (reponame) {
+    //   const itemID = sale.item.id;
+    //   const reponame = repomap[itemID];
+      if (true) {
           bitbucket.repositories.updateUserPermission({
                   workspace: 'open-listings',
                   repo_slug: 'open-listings-pro',
