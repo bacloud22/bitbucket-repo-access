@@ -18,6 +18,8 @@
     "autoprefixer": "^9.8.6",
     "bitbucket": "^2.12.0",
     "envato": "^2.4.1",
+    "mailtrap": "^3.4.0",
+    "nodemailer": "^6.10.0",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.6.2"
   },
